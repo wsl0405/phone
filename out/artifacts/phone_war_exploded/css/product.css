@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.nav-one{
+    width: 100%;
+    height: 30px;
+    background-color: #E3E4E5;
+    margin-top: 20px;
+}
+.nav-one ul{
+    list-style: none;
+    /* display: flex; */
+}
+.nav-left{
+    float: left;
+    height: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.nav-right{
+    margin-left: 80%;
+    margin-top: -20px;
+}
+.nav-right li{
+    float: left;
+    margin-right: 20px;
+}
+.nav-right a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.my-down{
+    width: 100px;
+    height: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    transition: height 0.5s;
+    z-index: 999;
+    position: absolute;
+    border: 1px solid black;
+}
+.my-down li{
+    margin-top: 10px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    margin-left: 25%;
+    margin-top: -50px;
+}
+.cart{
+    width: 200px;
+    height: 50px;
+    border: 1px solid red;
+    margin-left: 80%;
+    margin-top: -35px;
+    text-align: center;
+}
+.main{
+    width: 70%;
+    height: 700px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.left{
+    width: 49%;
+    height: 550px;
+    border: 1px solid black;
+    float: left;
+}
+.left_picture{
+    width: 48%;
+    height: 545px;
+}
+
+.left_picture img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height: 550px;
+    border: 1px solid black;
+    float: right;
+}
+.right_product_title{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid brown;
+    text-align: center;
+}
+.right_product_deal{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border: 1px solid brown;
+    text-align: center;
+}
+.price_style{
+    color: red;
+    font-size: 32px;
+    margin-left: 10%;
+}
+.sell{
+    color:#ADADAD ;
+    font-size: 18px;
+    margin-left: 12%;
+}
+.public_date{
+    color:#ADADAD ;
+    font-size: 18px;
+    margin-left: 15%;
+}
+.right_caozuo{
+    margin-top: 20px;
+    padding-left: 30%;
+}
